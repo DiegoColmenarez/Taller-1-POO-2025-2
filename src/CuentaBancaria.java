@@ -3,14 +3,15 @@ public class CuentaBancaria {
     String tipoCuenta;
     double saldo;
     public CuentaBancaria(){
+
     }
-    public CuentaBancaria(String cuentaTipo, int numCuenta){
-        numCuenta = numeroCuenta;
-        cuentaTipo = tipoCuenta;
+    public CuentaBancaria(String tipoCuenta , int numeroCuenta){
+        this.numeroCuenta = numeroCuenta;
+        this.tipoCuenta = tipoCuenta;
     }
-    public CuentaBancaria(String cuentaTipo, int numCuenta, double cantidadDinero){
-        cuentaTipo = tipoCuenta;
-        numCuenta = numeroCuenta;
-        cantidadDinero = saldo;
+    public CuentaBancaria(String tipoCuenta, int numeroCuenta, double saldo){
+        this.tipoCuenta = tipoCuenta;
+        this.numeroCuenta = numeroCuenta;
+        this.saldo = saldo;
     }
 }

@@ -7,10 +7,10 @@ public class Libro {
         titulo = "La peste";
         numPaginas = 345;
     }
-    public Libro(String autor1, String obraTitulo, int numeroPaginas){
-        autor = autor1;
-        titulo = obraTitulo;
-        numPaginas = numeroPaginas;
+    public Libro(String autor, String titulo, int numPaginas){
+        this.autor = autor;
+        this.titulo = titulo;
+        this.numPaginas = numPaginas;
     }
     public String getAutor() {
         return autor;
