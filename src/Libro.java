@@ -21,7 +21,19 @@ public class Libro {
     public int getNumPaginas() {
         return numPaginas;
     }
+    //recuerda aclarar este punto en el video.
+    public String toString() {
+        return "Titulo: " + titulo + "\n" +
+                "Numero de paginas: " + numPaginas + "\n" +
+                "Autor:  " + autor;
+    }
 
+    public static void main(String[] args) {
+        Libro libro = new Libro("Albert Camus", "La peste", 364);
+        System.out.println("Autor: " + libro.getAutor());
+        System.out.println("Titulo: " + libro.getTitulo());
+        System.out.println("Numero de paginas: " + libro.getNumPaginas());
+    }
 }
 
 

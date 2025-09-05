@@ -14,4 +14,9 @@ public class CuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
     }
+    public String toString() {
+        return "Tipo de Cuenta: " + tipoCuenta + "\n" +
+                "Numero de cuenta: " + numeroCuenta + "\n" +
+                "Saldo: " + saldo + "$";
+    }
 }

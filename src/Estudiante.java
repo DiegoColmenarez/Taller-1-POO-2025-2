@@ -15,6 +15,9 @@ public class Estudiante {
         this(nombre, edad);
          this.curso = curso;
     }
-
-
+    public String toString() {
+        return "Nombre: " + nombre + "\n" +
+                "Edad: " + edad + "\n" +
+                "Curso: " + curso;
+    }
 }
